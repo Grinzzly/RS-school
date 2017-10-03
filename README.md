@@ -4,7 +4,8 @@
   <sub>The little school that could. Solved by
   <a href="https://github.com/Grinzzly">Grinzzly</a>
   </a>
-  [logo]: https://school.rollingscopes.com/images/logo_rs_text.svg "RS school"
+  <br>
+  ![screenshot](https://school.rollingscopes.com/images/logo_rs_text.svg?raw=true "RS school")
 </div>
 
 [![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
@@ -23,5 +24,6 @@ The following solutions are included in the repo:
 
 ## Beside that
 * <a href="https://github.com/Grinzzly/CodeWars">Code Wars</a>
+<br>
 <a href="https://www.codewars.com/users/Grinzzly" target="_blank"><img src="https://www.codewars.com/users/Grinzzly/badges/large"></a>
 * <a href="https://www.codecademy.com/users/Grinzzly/achievements">Code Academy</a>
