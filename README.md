@@ -25,6 +25,4 @@ The following solutions are included in the repo:
 
 ## Beside that
 * <a href="https://github.com/Grinzzly/CodeWars">Code Wars</a>
-<a href="https://www.codewars.com/users/Grinzzly" target="_blank"><img src="https://www.codewars.com/users/Grinzzly/badges/large"></a>
-<br>
 * <a href="https://www.codecademy.com/users/Grinzzly/achievements">Code Academy</a>
