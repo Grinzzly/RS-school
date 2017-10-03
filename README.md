@@ -2,14 +2,15 @@
 
 <div align="center">
   <sub>The little school that could. Solved by
+  <a href="https://github.com/Grinzzly">Grinzzly</a>
+  </a>
   <br>
   <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS_school">
-  <a href="https://github.com/Grinzzly">Grinzzly</a>
 </div>
 
-[![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
-
 ## About
+
+[![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
 
 The following solutions are included in the repo:
 1. [Critical Rendering Path](https://github.com/Grinzzly/RS-school/tree/master/1.%20Critical%20Rendering%20Path)
