@@ -5,6 +5,7 @@
   <a href="https://github.com/Grinzzly">Grinzzly</a>
   </a>
   <br>
+  <br>
   <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS_school">
   <br>
   <br>
