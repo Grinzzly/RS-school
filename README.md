@@ -7,13 +7,18 @@
   <br>
   <br>
   <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS_school">
-</div>
-<br>
-<div align="center">
-  [![Join the chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
-  [![Airbnb](https://img.shields.io/badge/Code%20Style-Airbnb-red.svg)](https://github.com/airbnb/javascript)
+  <br>
+  <a href="https://gitter.im/rolling-scopes-school/padawans">
+        <img src="https://badges.gitter.im/Join%20Chat.svg"
+             alt="Join the chat">
+  </a>
+  <a href="https://github.com/airbnb/javascript">
+        <img src="https://img.shields.io/badge/Code%20Style-Airbnb-red.svg"
+             alt="Airbnb">
+  </a>
   <img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
 </div>
+
 ## About
 
 The following solutions are included in the repo:
