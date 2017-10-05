@@ -26,3 +26,5 @@ The following solutions are included in the repo:
 ## Beside that
 * <a href="https://github.com/Grinzzly/CodeWars">Code Wars</a>
 * <a href="https://www.codecademy.com/users/Grinzzly/achievements">Code Academy</a>
+
+[![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com)
