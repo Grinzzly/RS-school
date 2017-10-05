@@ -9,11 +9,11 @@
   <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS_school">
 </div>
 
-## About
-
 [![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
 [![Airbnb](https://img.shields.io/badge/Code%20Style-Airbnb-red.svg)](https://github.com/airbnb/javascript)
 <img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
+
+## About
 
 The following solutions are included in the repo:
 1. [Critical Rendering Path](https://github.com/Grinzzly/RS-school/tree/master/1.%20Critical%20Rendering%20Path)
