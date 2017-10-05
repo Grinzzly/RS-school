@@ -12,7 +12,7 @@
 ## About
 
 [![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
-(https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg)
+<img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
 
 The following solutions are included in the repo:
 1. [Critical Rendering Path](https://github.com/Grinzzly/RS-school/tree/master/1.%20Critical%20Rendering%20Path)
@@ -27,5 +27,3 @@ The following solutions are included in the repo:
 ## Beside that
 * <a href="https://github.com/Grinzzly/CodeWars">Code Wars</a>
 * <a href="https://www.codecademy.com/users/Grinzzly/achievements">Code Academy</a>
-
-[![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](#)
