@@ -13,10 +13,12 @@
         <img src="https://badges.gitter.im/Join%20Chat.svg"
              alt="Join the chat">
   </a>
+  &nbsp;
   <a href="https://github.com/airbnb/javascript">
         <img src="https://img.shields.io/badge/Code%20Style-Airbnb-red.svg"
              alt="Airbnb">
   </a>
+  &nbsp;
   <img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
 </div>
 
