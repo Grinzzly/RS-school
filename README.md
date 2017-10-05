@@ -7,11 +7,11 @@
   <br>
   <br>
   <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS_school">
-</div>
-
-[![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
+  <br>
+  [![Join the chat at https://gitter.im/rolling-scopes-school/padawans](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rolling-scopes-school/padawans)
 [![Airbnb](https://img.shields.io/badge/Code%20Style-Airbnb-red.svg)](https://github.com/airbnb/javascript)
 <img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
+</div>
 
 ## About
 
