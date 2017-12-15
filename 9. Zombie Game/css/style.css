@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  opacity:1;
+  transition: opacity 1s;
+}
+
+.fade {
+  opacity:0;
+}
+
+.background {
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.background td {
+  padding: 0;
+}
+
+.backgroundImg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      rgba(58, 59, 24, 0.25),
+      rgba(141, 175, 47, 0.01)
+  ),
+  url(../images/industrial-background.jpg);
+}
+
+.lava {
+  background: #e55;
+}
+
+.moving-down-lava {
+  display: inline-block;
+  transform: rotate(-45deg);
+  border: 5px solid #800a0d;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.moving-up-lava {
+  display: inline-block;
+  transform: rotate(-45deg);
+  border: 5px solid #800a0d;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.moving-right-lava {
+  display: inline-block;
+  transform: rotate(45deg);
+  border: 5px solid #800a0d;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.moving-left-lava {
+  display: inline-block;
+  transform: rotate(-135deg);
+  border: 5px solid #800a0d;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.wall {
+  background: #444;
+  border: solid 3px #333;
+  box-sizing: content-box;
+}
+
+.actor {
+  position: absolute;
+}
+
+.brain {
+  background: url(../images/brains.svg);
+}
+
+.player {
+  background: none;
+  box-shadow: none;
+}
+
+.eaten, .currentLevel {
+  position: fixed;
+  display: none;
+  top: 15px;
+  z-index: 1;
+  font-family: 'Creepster', cursive;
+  font-size: 70px;
+  color: #e05887;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.eaten {
+  left: 15px;
+}
+
+.currentLevel {
+  right: 15px;
+}
+
+.game {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+
+  z-index: 1;
+}
+
+.popup-content {
+  align-self: center;
+  text-align: center;
+  width: 700px;
+  height: 380px;
+  padding: 10px;
+  background-color: #c5c5c5;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
+  position: relative;
+  font-family: 'Pangolin', cursive;
+  font-size: 1.8rem;
+  color: #964b4b;
+  top: 10px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #481426;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 1em red;
+}
+
+.show-popup {
+  visibility: visible;
+}
+
+.popup-header {
+  text-align: center;
+  font-family: 'Creepster', cursive;
+  color: #e05887;
+  text-shadow: none;
+  -webkit-text-stroke-width: 0;
+}
+
+.scores {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.restart-button {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+}
+
+.restart-brain {
+  width: 100%;
+  height: 100%;
+}
+
+.restart-text {
+  position: absolute;
+  font-family: 'Creepster', cursive;
+  color: #e05887;
+  top: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.restart-button:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

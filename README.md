@@ -33,6 +33,7 @@ The following solutions are included in the repo:
 6. [Product](https://github.com/Grinzzly/RS-school/tree/master/6.%20Product)
 7. [Zeros](https://github.com/Grinzzly/RS-school/tree/master/7.%20Zeros)
 8. [Tic Tac Toe](https://github.com/Grinzzly/RS-school/tree/master/8.%20Tic%20Tac%20Toe)
+9. [Zombie Game](https://github.com/Grinzzly/RS-school/tree/master/9.%20Zombie%20Game)
 
 ## Beside that
 * <a href="https://github.com/Grinzzly/CodeWars">Code Wars</a>
