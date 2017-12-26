@@ -11,7 +11,10 @@ Final submission in frames of Rolling Scopes frontend courses
 * WebPack
 
 ### Run in browser
+
+```sh
 npm i
 npm run watch
+```
 
 open index.html
