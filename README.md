@@ -6,7 +6,7 @@
   </a>
   <br>
   <br>
-  <img src="https://school.rollingscopes.com/images/logo_rs_text.svg" alt="RS_school">
+  <img src="https://rs.school/images/rs_school.svg" alt="RS_school">
   <br>
   <br>
   <a href="https://gitter.im/rolling-scopes-school/padawans">
